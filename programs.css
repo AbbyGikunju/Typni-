@@ -1,0 +1,72 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f5ee; /* Light background for the body */
+    color: #333; /* Dark text color */
+    margin: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: rgb(63, 48, 143); /* Deep blue for header */
+    color: #ffffff; /* White text */
+    padding: 40px 0;
+    text-align: center; /* Center align text */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
+
+/* Section Titles */
+h2 {
+    color: rgb(236, 23, 87); /* Vibrant pink for section titles */
+    margin-bottom: 20px;
+    font-size: 2rem; /* Increased font size for emphasis */
+    text-transform: uppercase; /* Uppercase for a bold look */
+}
+
+/* Section Content */
+p {
+    line-height: 1.6; /* Improved readability */
+}
+
+/* List Styles */
+ul {
+    list-style-type: disc; /* Bullet points for lists */
+    margin-left: 20px; /* Indentation for lists */
+}
+
+/* Footer Styles */
+footer {
+    background-color: rgb(63, 48, 143); /* Deep blue for footer */
+    color: #ffffff; /* White text */
+    padding: 20px 0;
+    text-align: center; /* Center align footer text */
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: rgb(251, 189, 16); /* Bright orange */
+    border: none;
+    border-radius: 5px; /* Rounded corners for buttons */
+    padding: 10px 20px; /* Padding for buttons */
+    font-weight: bold; /* Bold text for buttons */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition */
+}
+
+.btn-primary:hover {
+    background-color: rgb(236, 23, 87); /* Vibrant pink on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}

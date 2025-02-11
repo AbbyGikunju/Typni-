@@ -1,0 +1,110 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* White background */
+    color: #3f308f; /* Dark text color */
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    background-color: #ffffff; /* White background */
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    color: #3f308f; /* Dark text for branding */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #3f308f; /* Dark text for links */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ec1757; /* Secondary color for hover */
+  }
+  
+/* Hero Section */
+.hero-section {
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #fbbd10; /* Primary color for hero background */
+}
+
+.hero-section h1 {
+    color: #3f308f; /* Dark text for headings */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hero-section p {
+    color: #3f308f; /* Dark text for subtext */
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.hero-section .btn-primary {
+    background-color: #ec1757; /* Secondary color for buttons */
+    color: #ffffff; /* White text */
+    border: none;
+    padding: 12px 30px;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+.hero-section .btn-primary:hover {
+    background-color: #9c1e5d; /* Tertiary color for hover */
+}
+  
+  /* About Section */
+  .about-section h2 {
+    color: #ec1757; /* Secondary color for headings */
+  }
+  
+  .about-section p {
+    color: #3f308f; /* Dark text */
+  }
+  
+  /* Stats Cards */
+  .stats-card {
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+  }
+  
+  .stats-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #3f308f; /* Dark color */
+    color: #ffffff; /* White text */
+  }
+  
+  .footer a {
+    color: #ffffff; /* White text for links */
+  }
+  
+  .footer a:hover {
+    color: #fbbd10; /* Primary color for hover */
+  }
+  /* Animations */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .animate__fadeIn {
+    animation: fadeIn 1.5s ease-in;
+  }
+  
+  .animate__delay-3s {
+    animation-delay: 3s;
+  }

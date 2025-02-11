@@ -1,0 +1,123 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f5ee; /* Light background for the body */
+    color: #333; /* Dark text color */
+    margin: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: rgb(63, 48, 143); /* Deep blue for header */
+    color: #ffffff; /* White text */
+    padding: 40px 0;
+    text-align: center; /* Center align text */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
+
+/* Section Titles */
+h2 {
+    color: rgb(236, 23, 87); /* Vibrant pink for section titles */
+    margin-bottom: 20px;
+    font-size: 2rem; /* Increased font size for emphasis */
+    text-transform: uppercase; /* Uppercase for a bold look */
+}
+
+/* Latest News Section */
+.news-updates-section {
+    margin-bottom: 40px;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: #ffffff; /* White background for cards */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    color: rgb(251, 189, 16); /* Bright orange for card titles */
+    font-weight: bold; /* Bold titles for emphasis */
+}
+
+.card-text {
+    color: #555; /* Darker text for card descriptions */
+}
+
+/* Upcoming Events */
+.list-group-item {
+    background-color: #ffffff; /* White background for list items */
+    border: 1px solid rgb(236, 23, 87); /* Pink border */
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+#one {
+    background-color: #fbbd10;
+}
+
+.list-group-item:hover {
+    background-color: rgb(251, 189, 16); /* Bright orange on hover */
+    color: #ffffff; /* Change text color to white on hover */
+}
+
+.list-group-item h5 {
+    color: rgb(63, 48, 143); /* Deep blue for event titles */
+}
+
+/* Footer Styles */
+footer {
+    background-color: rgb(63, 48, 143); /* Deep blue for footer */
+    color: #ffffff; /* White text */
+    padding: 20px 0;
+    text-align: center; /* Center align footer text */
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: rgb(251, 189, 16); /* Bright orange */
+    border: none;
+    border-radius: 5px; /* Rounded corners for buttons */
+    padding: 10px 20px; /* Padding for buttons */
+    font-weight: bold; /* Bold text for buttons */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition */
+}
+
+.btn-primary:hover {
+    background-color: rgb(236, 23, 87); /* Vibrant pink on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+/* Additional Styles for Visual Appeal */
+.container {
+    max-width: 1200px; /* Limit container width for better readability */
+    margin: auto; /* Center the container */
+}
+
+.row {
+    margin-bottom: 20px; /* Space between rows */
+}
+
+.text-muted {
+    color: rgb(156, 30, 93); /* Use a darker shade for muted text */
+}
